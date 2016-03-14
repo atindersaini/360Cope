@@ -1,0 +1,4 @@
+ApronId,BatchNo,ArticleCode,Department,AssignedTo,Manufacturer,Garment,Core,Colour,Monogram,ManufacturerDate,LastInspectionDate,NextInspectionDate,Status
+HM456,1,2,2,5,5,Frontal,5,5,5,5,5,5,5
+1548520,2,3,6,5,4,8,55,58,6,8,5,8,52
+8585258,8,8,5,8,5,8,5,8,5,8,58,58,5

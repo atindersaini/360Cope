@@ -1,0 +1,13 @@
+<script id="tpl" type="text/html">
+  {{#apron}}
+    <tr class="gradeX" id="{{ApronId}}" batchNo={{BatchNo}} articleCode={{ArticleCode}} department="{{Department}}" assignedTo="{{AssignedTo}}" colour="{{Colour}}" monogram="{{Monogram}}" manufacturerDate="{{ManufacturerDate}}" lastInspectionDate="{{LastInspectionDate}}" garment="{{Garment}}" core="{{Core}}" status="{{Status}}" manufacturer="{{Manufacturer}}">
+      <td width="10%"><input class="form-control replace" type="checkbox" id="{{ApronId}}"></td>
+      <td width="10%">{{ApronId}}</td>
+      <td width="15%">{{Department}}</td>
+      <td width="15%">{{AssignedTo}}</td>
+      <td width="15%">{{Status}}</td>
+      <td width="15%">{{NextInspectionDate}}</td>
+      <td class="center" width="10%"><button type="submit" class="btn btn-primary replaceApron">Replace</button></td>
+    </tr>
+  {{/apron}}
+</script>

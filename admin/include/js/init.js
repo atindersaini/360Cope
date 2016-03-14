@@ -1,0 +1,22 @@
+var init = {
+  limit:-1,
+  limit2:5,
+  search:false,
+  host:'http://219.91.205.9:8087/aprontrack/admin/',
+  danger:'<div style="color:#DC143C\;text-align:center;margin-bottom:0!important\;">',
+  success:'<div style="text-align:center\;">',
+  closeDiv:'</div>',
+  emailValidation: 'Please enter a valid email id',
+  emailBlank: 'Please enter a email id before proceeding',
+  passwordBlank: 'Please enter a password before proceeding',
+  resetSuccess: 'New Password has been sent you through an email.',
+  loginSuccess: 'Redirecting to dashboard..',
+  verficationSuccess: 'Email successfully verified',
+  commonValidation: 'You must provide all the reqiured details. Please try again',
+  passwordValidation: 'Password should contain atleast 6 characters.',
+  passwordMatch: 'Password does not match.',
+  terms: 'Please go through the terms and conditions',
+  emailSent: 'Email has been sent for verification',
+  unHandledError: 'Due to some technical error, can\'t proccess your request. Please try after some time.',
+  loginRequest: 'Please login before proceeding ahead'
+};

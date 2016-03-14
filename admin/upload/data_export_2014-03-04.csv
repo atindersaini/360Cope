@@ -1,0 +1,5 @@
+ApronId,UserId,Department,AssignedTo,Manufacturer,Garment,Core,Colour,Monogram,ManufacturerDate,LastInspectionDate,Status,Active
+12,3,AD,V,Infab,Breast Shield,Lead,Blue,X,02-01-2014,04-03-2014,Damage,1
+123456,3,B,A,Infab,Breast Shield,Lead,Blue,New,02-01-2014,04-03-2014,Damage,1
+15569,3,2,3,Infab,Breast Shield,Lead,6,7,0000-00-00,0000-00-00,In Service,1
+18934,3,4,4,Infab,Breast Shield,Lead,4,4,0000-00-00,0000-00-00,Damage,1

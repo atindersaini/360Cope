@@ -1,0 +1,26 @@
+<script id="tpl" type="text/html">
+<div class="adv-table">
+  <table  class="display table table-striped" id="example">
+    <tbody>
+      <tr>
+        <th class="center" width="40%">
+          <input type="hidden" id="coreId" name="coreId" class="form-control" value="{{coreId}}">
+          <input id="name" name="name" placeholder="Core Material" class="form-control" value="{{name}}">
+        </th>
+        <th class="center" width="40%">
+          <select id="status" name="status" class="form-control">
+            {{#active}}
+              <option value="1" selected="selected">Active</option>
+              <option value="0">Not Active</option>
+            {{/active}}
+            {{#inactive}}
+              <option value="1">Active</option>
+              <option value="0" selected="selected">Not Active</option>
+            {{/inactive}}
+          </select>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</script>

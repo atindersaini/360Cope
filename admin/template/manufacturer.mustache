@@ -1,0 +1,11 @@
+<script id="tpl" type="text/html">
+  {{#manufacturer}}
+    <tr class="gradeX"id="{{ManufacturerId}}">
+      <td>{{ManufacturerId}}</td>
+      <td>{{Manufacturer}}</td>
+      <td>{{Active}}</td>
+      <td><button type="submit" class="btn btn-danger editManufacturer" name="{{Manufacturer}}" status="{{Active}}" manufactuerId="{{ManufacturerId}}">Edit</button></td>
+      <td class="center"><button type="submit" class="btn btn-danger deleteManufacturer" manufactuerId="{{ManufacturerId}}">Delete</button></td>
+    </tr>
+  {{/manufacturer}}
+</script>

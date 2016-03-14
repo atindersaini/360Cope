@@ -1,0 +1,27 @@
+<script id="tpl" type="text/html">
+  {{#notifications}}
+    <tr id="{{ApronId}}">
+      <td>
+        <a href="#">{{ApronId}}</a>
+      </td>
+      <td class="hidden-phone">{{LastInspectionDate}}</td>
+      <td>{{NextInspectionDate}}</td>
+      {{#Missing}}
+        <td><span class="label label-warning label-mini">Missing</span></td>
+      {{/Missing}}
+      {{#OutofService}}
+        <td><span class="label label-danger label-mini">Out of Service</span></td>
+      {{/OutofService}}
+      {{#InService}}
+        <td><span class="label label-success label-mini">In Service</span></td>
+      {{/InService}}
+      {{#Damage}}
+        <td><span class="label label-primary label-mini">Damage</span></td>
+      {{/Damage}}
+      {{#Requested}}
+        <td><span class="label label-info label-mini">Replacing</span></td>
+      {{/Requested}}
+      <td><button class="btn btn-primary btn-xs editApron"><i class="icon-pencil"></i></button></td>
+    </tr>
+  {{/notifications}}
+</script>

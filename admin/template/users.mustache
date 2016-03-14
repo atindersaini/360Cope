@@ -1,0 +1,12 @@
+<script id="tpl" type="text/html">
+  {{#users}}
+    <tr class="gradeX" id="{{UserId}}">
+      <td>{{UserId}}</td>
+      <td>{{FirstName}} {{Lastname}}</td>
+      <td>{{Email}}</td>
+      <td>{{CreatedOn}}</td>
+      <td><input type="text" id="date_{{UserId}}" value="{{RenewDate}}" size="16" class="user form-control datepicker"></td>
+      <td class="center" width="10%"><button userId="{{UserId}}" type="submit" class="btn btn-primary">Update<!--i class="icon-pencil "></i--></button></td>
+    </tr>
+  {{/users}}
+</script>

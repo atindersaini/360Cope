@@ -1,0 +1,11 @@
+ApronId,BatchNo,ArticleCode,UserId,Department,AssignedTo,Manufacturer,Garment,Core,Colour,Monogram,ManufacturerDate,LastInspectionDate,NextInspectionDate,Status,Active
+1,1,1,5,A,Atinder,Infab,Frontal,Lead,Red,IFLR,0000-00-00,0000-00-00,6/18/2014,In Service,1
+2,1,2,5,A,atinder,Kiran XRay,Sleeve,Lead Composite,Red,KSLR,0000-00-00,3/19/2014,6/19/2014,Damage,1
+3,1,3,5,A,atinder,Kiran XRay,Glove,Lead Composite,red,KGLR,0000-00-00,3/19/2014,6/19/2014,Out of Service,1
+4,1,4,5,A,atinder,Kiran XRay,Frontal,Lead,Blue,X,0000-00-00,0000-00-00,6/18/2014,In Service,1
+5,1,5,5,A,atinder,Kiran XRay,Frontal,Lead Composite,Blue,X,0000-00-00,0000-00-00,6/18/2014,In Service,1
+6,2,6,5,B,atinder,Kiran XRay,Frontal,Lead,Blue,X,0000-00-00,0000-00-00,6/18/2014,In Service,1
+7,2,7,5,B,atinder,Kiran XRay,Frontal,Lead,Blue,X,0000-00-00,0000-00-00,6/18/2014,In Service,1
+8,2,8,5,C,atinder,Kiran XRay,Sleeve,Lead Composite,Blue,X,0000-00-00,0000-00-00,6/18/2014,In Service,1
+9,3,9,5,C,atinder,Infab,Glove,Lead Composite,Blue,X,0000-00-00,0000-00-00,6/18/2014,In Service,1
+10,3,10,5,C,atinder,Infab,Sleeve,Lead Composite,Blue,X,0000-00-00,0000-00-00,6/18/2014,In Service,1

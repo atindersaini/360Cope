@@ -1,0 +1,11 @@
+<script id="tpl" type="text/html">
+  {{#core}}
+    <tr class="gradeX"id="{{CoreId}}">
+      <td>{{CoreId}}</td>
+      <td>{{Core}}</td>
+      <td>{{Active}}</td>
+      <td><button type="submit" class="btn btn-danger editCore" name="{{Core}}" status="{{Active}}" coreid="{{CoreId}}">Edit</button></td>
+      <td class="center"><button type="submit" class="btn btn-danger deleteCore" coreId="{{CoreId}}">Delete</button></td>
+    </tr>
+  {{/core}}
+</script>

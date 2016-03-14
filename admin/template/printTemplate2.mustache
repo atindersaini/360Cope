@@ -1,0 +1,78 @@
+<script id="tplprint" type="text/html">
+  <div class="col-lg-12">
+    <section class="panel">
+      <header class="panel-heading">
+        360Cope
+      </header>
+      <div class="panel-body">
+        <div class="adv-table">
+        <div class="clearfix">
+          <div class="btn-group pull-right">
+            <button class="btn dropdown-toggle" data-toggle="dropdown">Tools <i class="icon-angle-down"></i></button>
+            <ul class="dropdown-menu pull-right">
+              <li id="print"><a href="#">Print</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        {{#apron}}
+          <table  class="display table table-striped" id="example">
+            <tbody>
+              <tr>
+                <th align="right" width="260px">Apron Id <i class="icon-barcode custom-large" style="font-size:16px;"></i></th>
+                <th align="left" class="center"><span style="color:#000" id="apronId">{{ApronId}}</span></th>
+                <th align="right" width="260px">Department:</th>
+                <th align="left" class="center"><span style="color:#000" id="department">{{Department}}</span></th>
+              </tr>
+              <tr>
+                <th align="right" width="260px">Batch No:</th>
+                <th align="left" class="center"><span style="color:#000" id="batchNo">{{BatchNo}}</span></th>
+                <th align="right" width="260px">Article Code:</th>
+                <th align="left" class="center"><span style="color:#000" id="articleCode">{{ArticleCode}}</span></th>
+              </tr>
+              <tr>
+                <th align="right" width="260px">Assigned To:</th>
+                <th align="left" class="center" ><span style="color:#000" id="assignedTo">{{AssignedTo}}</span></th>
+                <th align="right" class="center">Garment:</th>
+                <th align="left" width="260px"><span style="color:#000" id="garment">{{Garment}}</span></th>
+              </tr>
+              <tr>
+                <th align="right" width="260px">Manufacturer:</th>
+                <th align="left" class="center"><span style="color:#000" id="manufacturer">{{Manufacturer}}</span></th>
+                <th align="right" width="260px">Core:</th>
+                <th align="left" class="center"><span style="color:#000" id="core">{{Core}}</span></th>
+              </tr>
+              <tr>
+                <th align="right" width="260px">Colour:</th>
+                <th align="left" class="center"><span style="color:#000" id="colour">{{Colour}}</span></th>
+                <th align="right" width="260px">Monogram:</th>
+                <th align="left" class="center"><span style="color:#000" id="monogram">{{Monogram}}</span></th>
+              </tr>
+              <tr>
+                <th align="right" width="260px">Manufacturer Date:</th>
+                <th align="left" class="center"><span style="color:#000" id="manufacturerDate">{{ManufacturerDate}}</span></th>
+                <th align="right" width="260px">LastInspection:</th>
+                <th align="left" class="center"><span style="color:#000" id="lastInspectionDate">{{LastInspectionDate}}</span></th>
+              </tr>
+              <tr>
+                <th align="right" width="260px">NextInspection:</th>
+                <th align="left" class="center"><span style="color:#000" id="nextInspectionDate">{{NextInspectionDate}}</span></th>
+                <th align="right" width="260px">Status:</th>
+                <th align="left" class="center"><span style="color:#000" id="status">{{Status}}</span></th>
+              </tr>
+              <tr>
+                <th align="right" width="260px">Inspection Status:</th>
+                <th align="left" class="center">(Pass/Fail/Missing)</th>
+                <th align="right" width="260px">Email:</th>
+                <th align="left" class="center"><span style="color:#000">{{Email}}</span></th>
+              </tr>
+            </thead>
+          </tbody>
+        </table>
+        <hr>
+      {{/apron}}
+      </div>
+    </div>
+    </section>
+  </div>
+</script>

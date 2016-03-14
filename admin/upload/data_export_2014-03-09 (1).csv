@@ -1,0 +1,13 @@
+ApronId,BatchNo,ArticleCode,UserId,Department,AssignedTo,Manufacturer,Garment,Core,Colour,Monogram,ManufacturerDate,LastInspectionDate,NextInspectionDate,Status,Active
+1,16,15,2,a,"Technician 1",Kiran,"Breast Shield",Lead,Blue,BS,0000-00-00,0000-00-00,0000-00-00,"In Service",1
+11,0,0,2,1,2,Mavig,"Thyroid Collar",Ultralite,white,TC,0000-00-00,0000-00-00,0000-00-00,Damage,1
+11111,1,1,2,1,atinder,Mavig,Vest,"Lead Composite",red,LC,0000-00-00,0000-00-00,0000-00-00,"In Service",1
+12,2,1,2,3,4,Infab,"Breast Shield",Lead,6,7,0000-00-00,0000-00-00,0000-00-00,"In Service",1
+123,0,0,2,a,2,Infab,"Breast Shield",Lead,3,3,0000-00-00,0000-00-00,0000-00-00,Replacing,1
+1458963,0,0,2,A,S,Infab,"Breast Shield",Lead,s,S,0000-00-00,0000-00-00,0000-00-00,"In Service",1
+1589632,2,1,2,3H,HG,"Kiran XRay",Vest,A,H,GF1,0000-00-00,0000-00-00,0000-00-00,"In Service",1
+2,0,0,2,b,"Technician 2",360Cope,Frontal,"Lead Free",Red,F,0000-00-00,0000-00-00,0000-00-00,"In Service",1
+3,0,0,2,c,"Technician 3","Kiran XRay","Full Wrap","Lead Composite",Green,LC,0000-00-00,0000-00-00,0000-00-00,Replacing,1
+4,0,0,2,d,"Technician 3",Infab,Glove,KIARMOR,Yellow,K,0000-00-00,0000-00-00,0000-00-00,Replacing,1
+5,0,0,2,e,"Technician 5",Kiran,"Half Apron","Lead Free",Purple,LFP,0000-00-00,0000-00-00,0000-00-00,"Out of Service",1
+6,0,0,2,f,"Technician 6","Kiran XRay","Gonadal Shield","Lead Composite",Black,LCGS,0000-00-00,0000-00-00,0000-00-00,"In Service",1

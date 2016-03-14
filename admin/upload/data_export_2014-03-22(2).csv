@@ -1,0 +1,3 @@
+ApronId,BatchNo,ArticleCode,Department,AssignedTo,Manufacturer,Garment,Core,Colour,Monogram,ManufacturerDate,LastInspectionDate,NextInspectionDate,Status
+1235,0,111,231a3sd,asd,Kiran XRay,Frontal,Lead Free,blue,asdas,20-03-2014,0000-00-00,22-06-2014,In Service
+1236,0,111,231a3sd,asd,Kiran XRay,Frontal,Lead Free,blue,asdas,20-03-2014,0000-00-00,22-06-2014,In Service

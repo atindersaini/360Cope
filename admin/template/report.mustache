@@ -1,0 +1,12 @@
+<script id="tpl" type="text/html">
+  {{#apron}}
+    <tr class="gradeX" id="{{ApronId}}" batchNo={{BatchNo}} articleCode={{ArticleCode}} department="{{Department}}" assignedTo="{{AssignedTo}}" colour="{{Colour}}" monogram="{{Monogram}}" manufacturerDate="{{ManufacturerDate}}" lastInspectionDate="{{LastInspectionDate}}" garment="{{Garment}}" core="{{Core}}" status="{{Status}}" manufacturer="{{Manufacturer}}">
+      <td>{{ApronId}}</td>
+      <td>{{Department}}</td>
+      <td>{{AssignedTo}}</td>
+      <td>{{Status}}</td>
+      <td>{{NextInspectionDate}}</td>
+      <td class="center" width="10%"><button type="submit" class="btn btn-primary inspectReport"><i class="icon-ok"></i> View Report</button></td>
+    </tr>
+  {{/apron}}
+</script>
